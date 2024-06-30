@@ -17,12 +17,8 @@ Before creating the dashboard, the raw survey data underwent several cleaning an
 
 2. **Standardizing Formats**: - Data formats for columns such as `Salary`, `Experience`, and `Work/Life Balance` were standardized for consistency. For example, salaries were converted to a common currency, and experience levels were categorized uniformly. 
 
-3. **Creating Calculated Columns**: - New columns were created to provide additional insights. For instance, a `Salary Range` column was derived from the salary data, and a `Work/Life Balance Score` was calculated based on survey responses. 
+3. **Creating Calculated Columns**: - New columns were created to provide additional insights. For instance, a mean `Salary` column was derived from the `Salary range`' data, and a `Work/Life Balance Score` was calculated based on survey responses. 
 4. **Data Filtering**: - Irrelevant or outlier data points were filtered out to focus the analysis on the most representative data. For example, work roles and favorite programming languages columns were simplified by adding all but the main options in the group Other. 
-
-
-### Dashboard
-The Power BI dashboard created for this project provides a comprehensive visualization of the survey data, offering key insights into the data profession. The dashboard is divided into several interactive sections, each designed to highlight different aspects of the survey data.
 
 
 ### Valuable Insights
